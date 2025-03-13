@@ -5,23 +5,77 @@
 }
 
 header {
-    background-color: #37260c;
-    color: white;
+    background-color: black;
+    color: gold;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 header img{
     width: 150px;
 }
 
-.inicio ul {
+.menu ul {
     display: flex;
+    gap: 15px;
+}
+
+a {
+    color: white;
+}
+
+.CasaFundo {
+    display: flex;
+    justify-content: center;
+    background-image: url(IMG/casa_fundo.jpg);
+    background-size: cover;
+    padding: 250px;
+    background-position: center;
+
+}
+
+.CasaFundo button {
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 217, 0, 0.425);
+    color: white;
+}
+
+.caixas {
+    padding: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.caixas div {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.box-01 {
+    padding: 20px;
     
 }
 
-.div ul {
-    display: flex;
+.box-01 h2, p {
+    margin-top: 20px;
+}
+
+span {
+    color: gold;
+}
+
+.box-02 {
+    
 }
