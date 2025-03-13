@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: #37260c;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px;
+}
+
+header img{
+    width: 150px;
+}
+
+.inicio ul {
+    display: flex;
+    
+}
+
+.div ul {
+    display: flex;
+}
