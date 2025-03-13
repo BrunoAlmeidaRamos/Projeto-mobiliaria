@@ -77,5 +77,33 @@ span {
 }
 
 .box-02 {
-    
+    background-image: url(IMG/cozinha.jpg);
+    background-size: cover;
+    background-position: center;
 }
+
+.box-03 {
+    line-height: 50px;
+}
+
+i {
+    font-size: 20px;
+    color: green;
+   
+}
+
+.piscina{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    gap: 15px;
+}
+
+.piscina img {
+    width: 700px;
+    border-radius: 20px;
+}
+
