@@ -9,12 +9,12 @@ header {
     color: gold;
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
-    padding: 5px;
+    align-items: center;
+    padding: 25px;
 }
 
 header img{
-    width: 150px;
+    width: 80px;
 }
 
 .menu ul {
@@ -55,7 +55,7 @@ a {
 }
 
 .caixas div {
-    width: 300px;
+    width: 350px;
     height: 300px;
     background-color: black;
     color: white;
@@ -68,7 +68,11 @@ a {
     
 }
 
-.box-01 h2, p {
+.box-01 h2{
+    margin-top: 20px;
+}
+
+.box-01 p {
     margin-top: 20px;
 }
 
@@ -89,7 +93,23 @@ span {
 i {
     font-size: 20px;
     color: green;
-   
+}
+
+.box-03 span {
+    display: flex;
+    justify-content: center;
+}
+
+.box-03 ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+    font-size: large;
+}
+
+.box-03 ul li i {
+    padding-right: 10px;
 }
 
 .piscina{
@@ -98,12 +118,48 @@ i {
     background-color: black;
     color: white;
     padding: 100px;
-    text-align: center;
-    gap: 15px;
+    gap: 20px;
+    align-items: center;
+    font-size: larger;
 }
 
+.piscina p span {
+    font-weight: 800;
+    font-size: 50px;
+}
 .piscina img {
     width: 700px;
     border-radius: 20px;
 }
 
+.mapa {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 100px;
+}
+
+.mapa iframe {
+    border-radius: 15px;
+    width: 600px;
+    height: 300px;
+}
+
+.mapa p {
+    background-color: rgba(255, 217, 0, 0.507);
+    font-size: larger;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    gap: 10px;
+}
+footer img {
+    width: 50px;
+}
