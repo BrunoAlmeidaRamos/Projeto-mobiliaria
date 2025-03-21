@@ -76,6 +76,10 @@ body {
     color: black;
 }
 
+.imoveis span {
+    color: blue;
+}
+
 .box-1 {
     display: flex;
     justify-content: space-evenly;
