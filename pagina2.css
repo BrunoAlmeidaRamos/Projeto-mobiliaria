@@ -114,7 +114,7 @@ body {
     box-shadow: 10px 10px 20px black; /*Responsavel pela sombra das caixas (1 valor da sombra lateral, 2 valor dombra inferior, 3 valor da cor da cor da sombra.)*/
 }
 
-.box-1 .div-1 :hover {
+.box-1 .div-1:hover {
     box-shadow: 20px 20px 30px black;
     transition: 0.5s;
 }
