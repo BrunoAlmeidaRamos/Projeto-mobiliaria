@@ -24,6 +24,10 @@ header img{
     display: flex;
     gap: 15px;
 }
+.menu ul li :hover {
+    color: gold;
+    transition: 0.3s;
+}
 
 a {
     color: white;

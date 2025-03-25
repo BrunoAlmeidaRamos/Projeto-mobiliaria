@@ -31,6 +31,10 @@ header ul li {
     padding: 1em;
 }
 
+header ul li :hover {
+    color: gold;
+}
+
 body {
     background-color: #333333;
 }
