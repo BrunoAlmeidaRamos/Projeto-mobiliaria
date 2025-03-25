@@ -16,6 +16,15 @@ header {
     width: 100vw;
 }
 
+.user a {
+    display: flex;
+    gap: 15px;
+}
+
+.user i {
+    color: white;
+}
+
 header img{
     width: 80px;
 }
@@ -137,6 +146,7 @@ i {
 .piscina img {
     width: 700px;
     border-radius: 20px;
+    box-shadow: 10px 10px 20px white;
 }
 
 .mapa {
