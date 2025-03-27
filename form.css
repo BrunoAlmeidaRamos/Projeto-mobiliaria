@@ -5,7 +5,7 @@
 section {
     width: 100vw;
     height: 100vh;
-    background-image: url(IMG/fundo_forms.jpg);
+    background-image: url(IMG/house_forms\ \(2\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -38,14 +38,16 @@ section {
     height: 400px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
+    
 }
+
 .enviar {
+    display: flex;
+    align-items: center;
     color: #fff;
-    background-color: white;
     padding: 5px;
     height: 45px;
     width: 90%;
-    border: 1px solid black;
     
 }
 
@@ -54,9 +56,13 @@ input {
     width: 80%;
     font-size: 18px;
     margin-bottom: 10px;
-    background-color: #fff;
+    background-color: white;
     padding-left: 40px;
     border: none;
+}
+
+label {
+    font-weight: bold;
 }
 
 .sexo {
