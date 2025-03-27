@@ -21,9 +21,12 @@ section {
     align-items: center;
     padding: 20px;
 }
+
 .casa img{
     width: 100px;
-    padding: 50px;
+    height: 100px;
+    margin-top: -150px;
+    margin-bottom: 50px;
 }
 
 .div-form {
@@ -33,11 +36,30 @@ section {
     align-items: center;
     width: 400px;
     height: 400px;
-    background-color: rgba(255, 255, 255, 0.877);
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
 }
 .enviar {
+    color: #fff;
+    background-color: white;
+    padding: 5px;
+    height: 45px;
+    width: 90%;
+    border: 1px solid black;
+    
+}
+
+input {
+    height: 20px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 40px;
+    border: none;
+}
+
+.sexo {
     display: flex;
-    justify-content: center;
-    padding: 20px;
+    padding: 10px;
 }
