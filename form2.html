@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form2.css">
+    <title>Criar conta</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="div-form">
+            <div class="casa">
+                <img src="IMG/Logo.png" alt="logo">
+                <h1>JK IMOBILIÁRIA</h1>
+            </div>
+
+            <form action="">
+                <label for="input-nome">NOME</label>
+                <input type="text" class="input-nome" id="input-nome" name="input-nome" placeholder="Insira seu nome"
+                    required>
+                <br>
+
+                <label for="input-sobrenome">SOBRENOME</label>
+                <input type="text" class="input-sobrenome" id="input-sobrenome" name="input-sobrenome"
+                    placeholder="Insira seu sobrenome" required>
+                <br>
+
+                <label for="">IDADE</label>
+                <input type="date" class="input-idade" id="input-idade" name="input-idade"
+                    placeholder="Insira sua idade" required>
+                <br>
+
+                <div class="sexo">
+                    <input type="radio" class="sexo" name="sexo">Masculino
+                    <input type="radio" class="sexo" name="sexo">Feminino
+                </div>
+                <br>
+
+                <div class="estados">
+                    <label for="">ESTADO</label>
+                    <select name="" id="">
+                        <option value="sp">São Paulo</option>
+                        <option value="sc">Santa catarina</option>
+                        <option value="rj">Rio de Janeiro</option>
+                        <option value="ac">Acre</option>
+                        <option value="mg">Minas Gerais</option>
+                    </select>
+                </div>
+                <br>
+
+                <div class="email">
+                    <label for="">EMAIL</label>
+                    <input type="email" lass="input-email" id="input-email" name="input-email" placeholder="Insira seu email"
+                    required>
+                </div>
+                <br>
+
+                <div class="senha">
+                    <label for="">SENHA</label>
+                    <input type="password" class="input-senha" id="input-senha" name="input-senha"
+                    placeholder="Insira sua senha" required>
+
+                    <label for="">REPETE A SENHA</label>
+                    <input type="password" class="input-senha" id="input-senha" name="input-senha"
+                    placeholder="Insira sua senha novamente" required>
+                </div>
+                <br>
+
+                <div>
+                    <input type="submit" value="Cadastre-se">
+                </div>
+                <br>
+
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
