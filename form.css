@@ -64,3 +64,12 @@ input {
 label {
     font-weight: bold;
 }
+
+a {
+    color: rgba(214, 182, 2, 0.986)
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
