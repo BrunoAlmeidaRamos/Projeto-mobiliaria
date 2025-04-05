@@ -34,7 +34,7 @@ header button:hover {
 }
 
 .section-1 {
-    background-image: linear-gradient(180deg, rgba(0, 0, 255, 0.356) 8.33%, rgba(45, 45, 170, 0.726) 100%), url(img/moda.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 255, 0.356) 8.33%, rgba(45, 45, 170, 0.726) 100%), url(img/moda.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
